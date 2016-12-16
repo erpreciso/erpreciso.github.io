@@ -15,6 +15,7 @@ source "https://rubygems.org"
 # gem "jekyll", "~> 3.3.0"
 gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
+gem "jekyll-github-metadata"
 #
 # # If you have any plugins, put them here!
 group :jekyll_plugins do

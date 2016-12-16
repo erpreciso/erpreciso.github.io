@@ -7,15 +7,15 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "erpreciso website"
-title_separator          : "-"
+title                    : "All is not given is lost"
+title_separator          : "|"
 name                     : "Stefano Merlo"
-description              : "To share ideas"
-url                      : "https://erpreciso.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "erpreciso/erpreciso.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+description              : "A collection of ideas, how-to and best practices that I consider worth sharing"
+url                      : https://erpreciso.github.io
+baseurl                  : "/"
+repository               : erpreciso/erpreciso.github.io
+teaser                   : "/assets/fallback-teaser.png"
+breadcrumbs              : true
 words_per_minute         : 200
 comments: false
 staticman:
@@ -48,32 +48,13 @@ yandex_site_verification :
 author:
   name             : "Stefano Merlo"
   avatar           : "https://github.com/erpreciso.png?size=150"
-  bio              : "I am a person."
-  location         : "Deutschland"
+  bio              : "Thinking inside my head."
+  location         : "Tübingen, BW, Deutschland"
   email            :
   uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+  github           : erpreciso
+  linkedin         : erpreciso
+  stackoverflow    : 2265140/erpreciso
 
 
 # Reading Files
@@ -143,7 +124,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Berlin
 
 
 # Plugins
@@ -152,6 +133,7 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-github-metadata
   - jemoji
 
 # mimic GitHub Pages with --safe
@@ -213,3 +195,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
