@@ -1,9 +1,6 @@
 ---
 title: The Innovator's Dilemma
 date: 2016-08-10 15:37:09 +02:00
-categories:
-- Do Better Business
-- Must read
 tags: [semi-original]
 ---
 This **Clayton Christensen** book is about why successful companies fail while doing the right things.

@@ -50,11 +50,8 @@ author:
   avatar           : "https://github.com/erpreciso.png?size=150"
   bio              : "Thinking outside my head."
   location         : "Tübingen, BW, Deutschland"
-  email            :
-  uri              :
+  email            : trepreciso at gmail
   github           : erpreciso
-  linkedin         : erpreciso
-  stackoverflow    : 2265140/erpreciso
 
 
 # Reading Files
@@ -84,6 +81,7 @@ exclude:
   - package.json
   - Rakefile
   - README
+  - TODO.md
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
