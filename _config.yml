@@ -14,7 +14,7 @@ description              : "A collection of ideas, how-to and best practices tha
 url                      : https://erpreciso.github.io
 baseurl                  : "/"
 repository               : erpreciso/erpreciso.github.io
-teaser                   : "/assets/fallback-teaser.png"
+teaser                   : "/assets/images/fallback-teaser.png"
 breadcrumbs              : false
 words_per_minute         : 200
 comments: false

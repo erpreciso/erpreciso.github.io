@@ -3,7 +3,7 @@ title: About
 permalink: /about/
 
 ---
-![Berlin wall graffiti]({{ site.url }}/assets/berlin_wall.png)
+![Berlin wall graffiti]({{ site.url }}/assets/images/berlin_wall.png)
 
 Listen, to everything. And think thereafter.
 
