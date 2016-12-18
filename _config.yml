@@ -15,7 +15,7 @@ url                      : https://erpreciso.github.io
 baseurl                  : "/"
 repository               : erpreciso/erpreciso.github.io
 teaser                   : "/assets/fallback-teaser.png"
-breadcrumbs              : true
+breadcrumbs              : false
 words_per_minute         : 200
 comments: false
 staticman:
@@ -48,7 +48,7 @@ yandex_site_verification :
 author:
   name             : "Stefano Merlo"
   avatar           : "https://github.com/erpreciso.png?size=150"
-  bio              : "Thinking inside my head."
+  bio              : "Thinking outside my head."
   location         : "Tübingen, BW, Deutschland"
   email            :
   uri              :
