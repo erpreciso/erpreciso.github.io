@@ -8,7 +8,7 @@
 # Site Settings
 locale                   : "en"
 title                    : "All is not given is lost"
-title_separator          : "|"
+title_separator          : " > "
 name                     : "Stefano Merlo"
 description              : "A collection of ideas, how-to and best practices that I consider worth sharing"
 url                      : https://erpreciso.github.io

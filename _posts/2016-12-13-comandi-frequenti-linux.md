@@ -1,5 +1,5 @@
 ---
-title: Comandi frequenti Linux
+title: "Comandi utili per lavorare su terminale con Linux e Vim"
 date: 2016-12-13 17:16 +01:00
 tags: [command-line,linux,non-original]
 
