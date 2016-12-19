@@ -4,6 +4,18 @@ date: 2016-12-13 17:16 +01:00
 tags: [command-line,linux,non-original]
 
 ---
+
+
+<!-- vim-markdown-toc GFM -->
+* [Come copiare testo dal terminale, ad esempio da file di testo, direttamente negli appunti accessibili da Ctrl + v.](#come-copiare-testo-dal-terminale-ad-esempio-da-file-di-testo-direttamente-negli-appunti-accessibili-da-ctrl--v)
+* [Conoscere quali dispositivi sono collegati, e lo spazio libero disponibile](#conoscere-quali-dispositivi-sono-collegati-e-lo-spazio-libero-disponibile)
+* [Come ottenere, in VIM, la posizione corrente del cursore all'interno del documento, e di conseguenza i valori totali di righe, colonne, parole, caratteri e byte.](#come-ottenere-in-vim-la-posizione-corrente-del-cursore-allinterno-del-documento-e-di-conseguenza-i-valori-totali-di-righe-colonne-parole-caratteri-e-byte)
+* [Come visualizzare i files di una certa dimensione](#come-visualizzare-i-files-di-una-certa-dimensione)
+* [Generare una tabella dei contenuti in Vim](#generare-una-tabella-dei-contenuti-in-vim)
+* [Session info](#session-info)
+
+<!-- vim-markdown-toc -->
+
 # Come copiare testo dal terminale, ad esempio da file di testo, direttamente negli appunti accessibili da Ctrl + v.
 
 ```
@@ -131,22 +143,8 @@ AUTHORS
 
 ```
 
-Session info
+Originale: [https://linuxtidbits.wordpress.com/2008/02/22/command-line-to-clipboard/](https://linuxtidbits.wordpress.com/2008/02/22/command-line-to-clipboard/){:target="_blank"}
 
-```
-uname -mrs
-
-> Linux 4.8.0-12.2-liquorix-amd64 x86_64
-
-lsb_release -a
-
-> Distributor ID:	Ubuntu
-> Description:	Ubuntu 16.04.1 LTS
-> Release:	16.04
-> Codename:	xenial
-
-
-```
 
 # Conoscere quali dispositivi sono collegati, e lo spazio libero disponibile
 
@@ -214,6 +212,8 @@ Full documentation at: <http://www.gnu.org/software/coreutils/df>
 or available locally via: info '(coreutils) df invocation'
 
 ```
+
+
 # Come ottenere, in VIM, la posizione corrente del cursore all'interno del documento, e di conseguenza i valori totali di righe, colonne, parole, caratteri e byte.
 
 Premere `g`, e subito dopo `<Ctrl> + g`
@@ -234,23 +234,70 @@ Per invece contare il numero di volte che una specifica parola (o regex) compare
 * `g` per cercare tutte le occorrenze, non solo la prima di ogni linea;
 * `n` per non sostituire nulla.
 
+Originale: [http://vim.wikia.com/wiki/Word_count](http://vim.wikia.com/wiki/Word_count){:target="_blank"}
+
+
 # Come visualizzare i files di una certa dimensione
 
-```
-find / -xdev -type f -size +100M
-```
-
-mostra i files dalla directory `/` piú grandi di 100 Megabytes.
+In questi esempi, mostro i files piú grandi di 50 megabytes presenti nella mia home folder e nelle cartelle contenute. Tre comandi simili per risultati simili.
 
 ```
-find . -type f -size +10000k -exec ls -lh {} \; | awk '{ print $9 ": " $5 }'
+find ~ -xdev -type f -size +50M
+
+/home/thename/Dropbox/mail/mbox
+/home/thename/Dropbox/mail/sent
+/home/thename/Downloads/forest-trees/covtype.csv
+/home/thename/.rvm/src/ruby-2.3.0/libruby-static.a
+/home/thename/.rvm/rubies/ruby-2.3.0/lib/libruby-static.a
 ```
 
-stampa la lista dei files con inoltre la dimensione. Notare qui il suffisso `k` invece che `M`, come alternativa.
 
 ```
-find . -type f -size +50000k | xargs du -sh
+find ~ -type f -size +50M -exec ls -lh {} \; | awk '{ print $9 ": " $5 }'
+
+/home/thename/Dropbox/mail/mbox: 211M
+/home/thename/Dropbox/mail/sent: 74M
+/home/thename/Downloads/forest-trees/covtype.csv: 72M
+/home/thename/.rvm/src/ruby-2.3.0/libruby-static.a: 51M
+/home/thename/.rvm/rubies/ruby-2.3.0/lib/libruby-static.a: 51M
 ```
 
-questo genera forse l'output piú chiaro.
 
+```
+find ~ -type f -size +50M | xargs du -sh
+
+211M	/home/thename/Dropbox/mail/mbox
+74M	/home/thename/Dropbox/mail/sent
+72M	/home/thename/Downloads/forest-trees/covtype.csv
+51M	/home/thename/.rvm/src/ruby-2.3.0/libruby-static.a
+51M	/home/thename/.rvm/rubies/ruby-2.3.0/lib/libruby-static.a
+```
+Originale:[http://unix.stackexchange.com/questions/140367/finding-all-large-files-in-the-root-filesystem](http://unix.stackexchange.com/questions/140367/finding-all-large-files-in-the-root-filesystem){:target="_blank"}
+
+
+# Generare una tabella dei contenuti in Vim
+
+Tramite il plugin **vim-markdown-toc**, ed il comando `GenTocGFM`.
+
+Risultato in cima a questa pagina.
+
+
+Originale:[https://github.com/mzlogin/vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc){:target="_blank"}
+
+
+# Session info
+
+```
+uname -mrs
+
+> Linux 4.8.0-12.2-liquorix-amd64 x86_64
+
+lsb_release -a
+
+> Distributor ID:	Ubuntu
+> Description:	Ubuntu 16.04.1 LTS
+> Release:	16.04
+> Codename:	xenial
+
+
+```
