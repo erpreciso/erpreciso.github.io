@@ -5,16 +5,7 @@ tags: [command-line,linux,non-original]
 
 ---
 
-
-<!-- vim-markdown-toc GFM -->
-* [Come copiare testo dal terminale, ad esempio da file di testo, direttamente negli appunti accessibili da Ctrl + v.](#come-copiare-testo-dal-terminale-ad-esempio-da-file-di-testo-direttamente-negli-appunti-accessibili-da-ctrl--v)
-* [Conoscere quali dispositivi sono collegati, e lo spazio libero disponibile](#conoscere-quali-dispositivi-sono-collegati-e-lo-spazio-libero-disponibile)
-* [Come ottenere, in VIM, la posizione corrente del cursore all'interno del documento, e di conseguenza i valori totali di righe, colonne, parole, caratteri e byte.](#come-ottenere-in-vim-la-posizione-corrente-del-cursore-allinterno-del-documento-e-di-conseguenza-i-valori-totali-di-righe-colonne-parole-caratteri-e-byte)
-* [Come visualizzare i files di una certa dimensione](#come-visualizzare-i-files-di-una-certa-dimensione)
-* [Generare una tabella dei contenuti in Vim](#generare-una-tabella-dei-contenuti-in-vim)
-* [Session info](#session-info)
-
-<!-- vim-markdown-toc -->
+{% include toc title="Table of content" icon="file-text" %}
 
 # Come copiare testo dal terminale, ad esempio da file di testo, direttamente negli appunti accessibili da Ctrl + v.
 

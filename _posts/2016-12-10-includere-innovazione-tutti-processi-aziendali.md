@@ -4,6 +4,8 @@ title: Includere l'innovazione in tutti i processi aziendali
 date: 2016-12-10 21:11 +01:00
 
 ---
+{% include toc  icon="file-text" %}
+
 Riflessioni a seguito della lettura del libro di [Gary Hamel - Il futuro del management](https://www.goodreads.com/book/show/1842550.The_Future_of_Management"){:target="_blank"}
 
 *Innovazione* non deve essere solamente un'idea di cui parlare durante le riunioni, o uno scambio di idee alla macchinetta del caffè con l'implicito che "tanto nulla verrà realizzato". Deve essere inclusa nella quotidianità della vita di un'azienda, dalle riunioni per discutere il budget ai colloqui per assumere personale alle discussioni con collaboratori esterni.

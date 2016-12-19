@@ -5,6 +5,8 @@ date: 2016-06-09 19:59 +02:00
 
 ---
 
+{% include toc title="Checklist" icon="file-text" %}
+
 > *I hear and I forget. I see and I remember. I do and I understand*
 > Confucius
 
