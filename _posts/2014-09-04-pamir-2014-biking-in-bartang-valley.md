@@ -1,6 +1,10 @@
 ---
-title: Pamir 2014 - biking in Bartang Valley
+title: "Pamir 2014"
+excerpt: "Biking in Bartang Valley, Tajikistan"
 date: 2014-09-04 06:20 +02:00
+header:
+  image: /assets/images/2014-pamir/haystack.png
+  caption: "Haystack"
 gallery:
  - image_path: /assets/images/2014-pamir/IMG_8970.jpg
    url: /assets/images/2014-pamir/IMG_8970.jpg
@@ -202,16 +206,23 @@ gallery:
    url: /assets/images/2014-pamir/pamir-highway-133.jpg
 
 ---
-3-weeks bike tour completed in August 2014. All details at my journal in [crazyguyonabike](https://www.crazyguyonabike.com/doc/?o=tS&doc_id=18821&v=59){:target="_blank"}
 
-Also check out the video!
+# Journal
+
+3-weeks bike tour completed in August 2014. All details at my journal hosted by [crazyguyonabike](https://www.crazyguyonabike.com/doc/?o=tS&doc_id=18821&v=59){:target="_blank"}
+
+# Map
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1bwsDf5GsU_xgmAjiu3xnNB9X7jk" width="640" height="480"></iframe>
+
+# Video
 
 <iframe src="https://www.youtube.com/embed/mJ3bzb2LX40" frameborder="0" allowfullscreen></iframe>
 
 *******
 
-Full size images hosted by [Google Photos](https://goo.gl/photos/6ZLQJhjCc1tnUD9q8){:target="_blank"}
+# Gallery
 
-{% include gallery %}
+{% include gallery caption="Full size images hosted by [Google Photos](https://goo.gl/photos/6ZLQJhjCc1tnUD9q8){:target='_blank'}" %}
 
 
