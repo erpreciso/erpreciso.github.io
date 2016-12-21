@@ -75,7 +75,7 @@ Be creative, think outside the box and brainstorm for each of these points above
 
 ## Step 3: call to action
 
-Think about how to leverage cognitive biases in your favor to trigger an action: an idea is to use some cards with a cognitive bias on each, and brainstorm how to apply to the situation (see <a href="http://getmentalnotes.com/resources" target="_blank">getmentalnotes</a>)
+Think about how to leverage cognitive biases in your favor to trigger an action: an idea is to use some cards with a cognitive bias on each, and brainstorm how to apply to the situation
 
 Think about the idea from the process perspective, and divide it in steps
 
