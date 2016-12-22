@@ -42,6 +42,9 @@ collections:
     travels:
       output: true
       permalink: /:collection/:path/
+    data_analysis:
+      output: true
+      permalink: /:collection/:path/
 
 # SEO Related
 google_site_verification : 
