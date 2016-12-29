@@ -90,3 +90,8 @@ date: 2016-08-01
 	<a href="https://xkcd.com/627/"><img src="http://imgs.xkcd.com/comics/tech_support_cheat_sheet.png"></a>
 	<figcaption>Tech Support Cheat Sheet</figcaption>
 </figure>
+
+<figure>
+	<a href="https://xkcd.com/1613/"><img src="http://imgs.xkcd.com/comics/the_three_laws_of_robotics.png"></a>
+	<figcaption>The Three Laws of Robotics</figcaption>
+</figure>
