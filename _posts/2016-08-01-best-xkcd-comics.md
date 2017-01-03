@@ -1,6 +1,7 @@
 ---
 title: My favourite XKCDs
 date: 2016-08-01
+excerpt: Una collezione delle mie vignette preferite
 
 ---
 
@@ -94,4 +95,9 @@ date: 2016-08-01
 <figure>
 	<a href="https://xkcd.com/1613/"><img src="http://imgs.xkcd.com/comics/the_three_laws_of_robotics.png"></a>
 	<figcaption>The Three Laws of Robotics</figcaption>
+</figure>
+
+<figure>
+	<a href="https://xkcd.com/1357/"><img src="http://imgs.xkcd.com/comics/free_speech.png"></a>
+	<figcaption>Free Speech</figcaption>
 </figure>
