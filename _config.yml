@@ -40,9 +40,10 @@ atom_feed:
 # Collections
 collections:
     travels:
-      output: true
       permalink: /:collection/:path/
     data_analysis:
+      permalink: /:collection/:path/
+    woodworking:
       output: true
       permalink: /:collection/:path/
 
@@ -214,3 +215,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _woodworking
+  - scope:
+      path: ""
+      type: woodworking
+    values:
+      layout: single
+      author_profile: true
+      comments: # true
+      share: true
+      related: false
