@@ -1,8 +1,7 @@
 ---
 title: "Iceland 2012: Biking in fall, trying (unsuccessfully) to cross the highlands"
-date: 2012-10-04 09:50 +02:00
-category:
- - travel
+header:
+  teaser: /assets/images/2012-iceland/IMG_4788_mare_del_sud.jpg
 gallery:
  - image_path: /assets/images/2012-iceland/IMG_4732_storto_ma_a_terra.jpg
    url: /assets/images/2012-iceland/IMG_4732_storto_ma_a_terra.jpg

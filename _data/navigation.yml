@@ -6,6 +6,8 @@ main:
     url: /projects/
   - title: "Woodworking"
     url: /woodworking/
+  - title: Travels
+    url: /travels/
   - title: "Sitemap"
     url: sitemap.xml
   - title: "Collections"

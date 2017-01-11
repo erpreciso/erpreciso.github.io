@@ -40,6 +40,7 @@ atom_feed:
 # Collections
 collections:
     travels:
+      output: true
       permalink: /:collection/:path/
     data_analysis:
       permalink: /:collection/:path/
@@ -225,3 +226,10 @@ defaults:
       comments: # true
       share: true
       related: false
+  # _travels
+  - scope:
+      path: ""
+      type: travels
+    values:
+      layout: single
+      author_profile: true

@@ -1,8 +1,7 @@
 ---
 title:  Iceland 2011
-date:  2011-10-04 13:07 +02:00
-category:
- - travel
+header:
+  teaser: /assets/images/2011-iceland/Keflavik_2.jpg
 gallery: 
  - url: /assets/images/2011-iceland/Garodskagi.jpg
    image_path: /assets/images/2011-iceland/Garodskagi.jpg
