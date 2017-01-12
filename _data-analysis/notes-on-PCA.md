@@ -1,9 +1,9 @@
 ---
-title: "Notes on PCA"
-date: 2013-05-01
+title: Notes on PCA
 excerpt: Principal Components Analysis using the `caret` package
 
 ---
+
 # What's PCA doing?
 
 It's a tool to search for the principal components that explain variance of data.
