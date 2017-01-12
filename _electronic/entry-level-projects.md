@@ -1,10 +1,10 @@
 ---
 
-title: "Arduino entry-level projects"
-date: 2014-12-13 14:15 +01:00
-excerpt: "Started learning Arduino programming with some few pre-packed projects"
-category:
- - electronic
+title: Arduino entry-level projects
+date: 2014-12-13
+excerpt: Started learning Arduino programming with some few pre-packed projects
+header:
+  teaser: /assets/images/arduino/arduino.jpg
 
 ---
 
