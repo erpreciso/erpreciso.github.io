@@ -1,14 +1,17 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Projects"
+  - title: About Me
+    url: /about-me/
+    icon: hand-spock-o
+  - title: Projects
     url: /projects/
-  - title: "Woodworking"
+  - title: Data Analysis
+    url: /data-analysis/
+  - title: Woodworking
     url: /woodworking/
+    icon: paper-plane
   - title: Travels
     url: /travels/
-  - title: "Sitemap"
+    icon: bicycle
+  - title: Sitemap
     url: sitemap.xml
-  - title: "Collections"
-    url: /collection-archive/

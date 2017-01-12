@@ -2,6 +2,8 @@
 title: Lifelong learning
 date: 2017-01-08
 excerpt: Per rimanere aggiornati
+header:
+  teaser: /assets/images/lifelong-learning/taschenbuch.jpg
 gallery:
   - url: /assets/images/lifelong-learning/build-a-startup.png
     image_path: /assets/images/lifelong-learning/build-a-startup.png
