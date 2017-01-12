@@ -2,6 +2,7 @@
 title: "Global Terrorism Database: un'analisi esplorativa"
 excerpt: Per familiarizzare col database in previsione di analisi future.
 header:
+  teaser: /assets/images/2017-01-09-terrorism/anni_di_piombo.jpg
   image: /assets/images/2017-01-09-terrorism/header.png
   caption: "Giuseppe Memeo in Via De Amicis a Milano il 14 Maggio 1977, e l'interno della banca di Piazza Fontana a Milano dopo la strage del 12 Dicembre 1969. Credits: [Wikipedia](https://it.wikipedia.org/wiki/Anni_di_piombo)"
 output:

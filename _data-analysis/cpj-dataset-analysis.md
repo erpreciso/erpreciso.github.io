@@ -1,6 +1,9 @@
 ---
-title: "An analysis of the Cpj (Committee to Protect Journalists) database of journalists killed from 1992"
+title: Journalists killed from 1992
+excerpt: An analysis of the Cpj (Committee to Protect Journalists) database of journalists killed
 date: 2016-11-16
+header:
+  teaser: https://cpj.org/images/cpj-logo.png
 
 ---
 
