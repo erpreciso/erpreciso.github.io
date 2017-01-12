@@ -42,9 +42,13 @@ collections:
     travels:
       output: true
       permalink: /:collection/:path/
-    data_analysis:
+    data-analysis:
+      output: true
       permalink: /:collection/:path/
     woodworking:
+      output: true
+      permalink: /:collection/:path/
+    about-me:
       output: true
       permalink: /:collection/:path/
 
@@ -148,6 +152,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jekyll-github-metadata
+  - jekyll-seo-tag
   - jemoji
 
 # mimic GitHub Pages with --safe
@@ -230,6 +235,20 @@ defaults:
   - scope:
       path: ""
       type: travels
+    values:
+      layout: single
+      author_profile: true
+  # _data-analysis
+  - scope:
+      path: ""
+      type: data-analysis
+    values:
+      layout: single
+      author_profile: true
+  # _about-me
+  - scope:
+      path: ""
+      type: about-me
     values:
       layout: single
       author_profile: true

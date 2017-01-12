@@ -206,6 +206,7 @@ DEPENDENCIES
   jekyll-gist
   jekyll-github-metadata
   jekyll-paginate
+  jekyll-seo-tag
   jekyll-sitemap
   jemoji
   minimal-mistakes-jekyll
