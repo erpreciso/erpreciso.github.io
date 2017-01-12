@@ -51,6 +51,9 @@ collections:
     about-me:
       output: true
       permalink: /:collection/:path/
+    electronic:
+      output: true
+      permalink: /:collection/:path/
 
 # SEO Related
 google_site_verification : 
@@ -249,6 +252,13 @@ defaults:
   - scope:
       path: ""
       type: about-me
+    values:
+      layout: single
+      author_profile: true
+  # _electronic
+  - scope:
+      path: ""
+      type: electronic
     values:
       layout: single
       author_profile: true

@@ -1,6 +1,8 @@
 ---
 title: Kinect installed on Windows
 date: 2014-12-30 23:35 +01:00
+header:
+  teaser: /assets/images/kinect/kinect.jpg
 
 ---
 

@@ -3,15 +3,19 @@ main:
   - title: About Me
     url: /about-me/
     icon: hand-spock-o
-  - title: Projects
-    url: /projects/
   - title: Data Analysis
     url: /data-analysis/
+    icon: bar-chart
   - title: Woodworking
     url: /woodworking/
     icon: paper-plane
   - title: Travels
     url: /travels/
     icon: bicycle
+  - title: Electronic
+    url: /electronic/
+    icon: space-shuttle
   - title: Sitemap
     url: sitemap.xml
+  - title: Projects
+    url: /projects/
