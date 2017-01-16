@@ -16,6 +16,7 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
 gem "jekyll-github-metadata"
+gem "html-proofer"
 #
 # # If you have any plugins, put them here!
 group :jekyll_plugins do
