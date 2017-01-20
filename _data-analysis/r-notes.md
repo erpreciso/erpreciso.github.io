@@ -172,3 +172,14 @@ Instruction list on how data have been processed should be a script or clear and
 
 * **Supervised learning** when we have a set of variables and an outcome, and we try to predict it
 * **Unsupervised learning** when we have a set of variables and we try to predict how these relation to each other, if we can subgroup or visualize in a meaningful way
+
+
+# Decision Trees
+
+* Split the universe in two parts, then again --> **Recursive partitioning**
+* Regions --> *terminal nodes*, or leaves
+* *top down*: start from the top of the tree (all observations in a single region)
+* *greedy*: at each step we do the best split, rather than look ahead and think a split that will be convenient in the future
+* trees will continue to be very complex: we then prune it to avoid overfitting by CV till the error is good
+* for classification, the most common class is taken
+* classification error rate: fraction of the training observation that doesn't belong to the common class
