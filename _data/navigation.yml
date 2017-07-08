@@ -1,16 +1,4 @@
 # main links
 main:
-  - title: About Me
-    url: /about-me/
-  - title: Data Analysis
-    url: /data-analysis/
-  - title: Woodworking
-    url: /woodworking/
-  - title: Travels
-    url: /travels/
-  - title: Electronic
-    url: /electronic/
   - title: Sitemap
     url: sitemap.xml
-  - title: Projects
-    url: /projects/
