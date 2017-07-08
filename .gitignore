@@ -1,7 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
-TODO.md
-_jetpack-portfolios
+TODO.txt
 _drafts
+assets/images/schonbuch.jpg
+assets/images/valleile.png
 
