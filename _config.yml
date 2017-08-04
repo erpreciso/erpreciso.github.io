@@ -5,8 +5,8 @@ description              : >
   that I consider worth sharing
 baseurl: ""
 url: https://erpreciso.github.io
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+# github_username:  jekyll
 
 # Build settings
 markdown: kramdown
