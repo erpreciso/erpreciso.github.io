@@ -1,264 +1,29 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+title: All is not given is lost
+email: trepreciso@gmail.com
+description              : >
+  A collection of ideas, how-to and best practices 
+  that I consider worth sharing
+baseurl: ""
+url: https://erpreciso.github.io
+twitter_username: jekyllrb
+github_username:  jekyll
 
-# Site Settings
-locale                   : "en"
-title                    : "All is not given is lost"
-title_separator          : " > "
-name                     : "Stefano Merlo"
-description              : "A collection of ideas, how-to and best practices that I consider worth sharing"
-url                      : https://erpreciso.github.io
-baseurl                  : "/"
-repository               : erpreciso/erpreciso.github.io
-teaser                   : "/assets/images/fallback-teaser.png"
-breadcrumbs              : false
-words_per_minute         : 200
-comments: false
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-
-# Collections
-collections:
-    travels:
-      output: true
-      permalink: /:collection/:path/
-    data-analysis:
-      output: true
-      permalink: /:collection/:path/
-    woodworking:
-      output: true
-      permalink: /:collection/:path/
-    about-me:
-      output: true
-      permalink: /:collection/:path/
-    electronic:
-      output: true
-      permalink: /:collection/:path/
-
-# SEO Related
-google_site_verification : 
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-# Analytics
-analytics:
-  provider         : "google"
-  google:
-    tracking_id    : "UA-54837961-3"
-
-# Site Author
-author:
-  name             : "Stefano Merlo"
-  avatar           : "https://github.com/erpreciso.png?size=150"
-  bio              : "Thinking outside my head."
-  location         : "Tübingen, BW, Deutschland"
-  email            : trepreciso at gmail
-  github           : erpreciso
-
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - TODO.md
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
+# Build settings
 markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 50 # amount of posts to show
-paginate_path: /page:num/
-timezone: Europe/Berlin
-
-
-# Plugins
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
+theme: minima
+plugins:
   - jekyll-feed
-  - jekyll-github-metadata
-  - jekyll-seo-tag
-  - jemoji
 
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+google_analytics: UA-54837961-3
 
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
-
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: false
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _woodworking
-  - scope:
-      path: ""
-      type: woodworking
-    values:
-      layout: single
-      author_profile: true
-      comments: # true
-      share: true
-      related: false
-  # _travels
-  - scope:
-      path: ""
-      type: travels
-    values:
-      layout: single
-      author_profile: true
-  # _data-analysis
-  - scope:
-      path: ""
-      type: data-analysis
-    values:
-      layout: single
-      author_profile: true
-  # _about-me
-  - scope:
-      path: ""
-      type: about-me
-    values:
-      layout: single
-      author_profile: true
-  # _electronic
-  - scope:
-      path: ""
-      type: electronic
-    values:
-      layout: single
-      author_profile: true
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
