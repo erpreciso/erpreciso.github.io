@@ -11,8 +11,11 @@ url: https://erpreciso.github.io
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
+plugins_dir:
   - jekyll-feed
+
+gems:
+  - jekyll-sitemap
 
 google_analytics: UA-54837961-3
 
@@ -27,7 +30,4 @@ google_analytics: UA-54837961-3
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-gems:
-  - jekyll-sitemap
 
