@@ -147,6 +147,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
+    jekyll-youtube (1.0.0)
+      jekyll
     jemoji (0.8.0)
       activesupport (~> 4.0)
       gemoji (~> 3.0)
@@ -200,6 +202,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
   jekyll-sitemap
+  jekyll-youtube
   tzinfo-data
 
 BUNDLED WITH
