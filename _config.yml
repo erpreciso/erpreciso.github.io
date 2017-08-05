@@ -22,7 +22,8 @@ google_analytics: UA-54837961-3
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - TODO.txt
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
