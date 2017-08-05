@@ -27,3 +27,7 @@ google_analytics: UA-54837961-3
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+gems:
+  - jekyll-sitemap
+
