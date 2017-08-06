@@ -267,3 +267,13 @@
       font-size: $bigger-font-size;
     }
 
+/**
+ * Tags
+ */
+ .title-tag {
+    font-size: $bigger-font-size;
+ }
+ .date-tag {
+    color: $grey-color-dark;
+    font-size: $small-font-size;
+ }

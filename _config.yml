@@ -24,6 +24,11 @@ gems:
 
 google_analytics: UA-54837961-3
 
+# Minima date format
+# # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%e %B %Y"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
