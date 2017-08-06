@@ -1,15 +1,17 @@
 ---
 layout: default
+
 ---
 
 <div class="home">
 
   {{ content }}
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">{{ site.data.vars.posts_label[page.lang] }}</h1>
   
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>

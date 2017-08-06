@@ -258,3 +258,12 @@
   color: $grey-color-dark;
   font-size: $small-font-size;
 }
+
+/**
+ * Language selector
+ */
+.en:lang(en), .it:lang(it){
+      font-weight: bold;
+      font-size: $bigger-font-size;
+    }
+

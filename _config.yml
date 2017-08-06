@@ -1,16 +1,16 @@
-title: All is not given is lost
+title:
+  it: Tutto ció che non è donato è perduto
+  en: All is not given is lost
 email: trepreciso@gmail.com
-description              : >
-  A collection of ideas, how-to and best practices 
-  that I consider worth sharing
+description:
+  en: A collection of ideas, how-to and best practices that I consider worth sharing
+  it: Idee, suggerimenti e guide che trovo utile condividere
 baseurl: ""
 url: https://erpreciso.github.io
 # twitter_username: jekyllrb
-# github_username:  jekyll
+github_username:  erpreciso
 show_excerpts: true
-tags:
-  - elettronica
-  - post
+
 
 # Build settings
 markdown: kramdown

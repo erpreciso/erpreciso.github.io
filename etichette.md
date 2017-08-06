@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Tags
-permalink: /tags/
-lang: en
+title: Etichette
+permalink: /etichette/
+lang: it
 ref: tags
 
 ---

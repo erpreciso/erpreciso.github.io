@@ -1,0 +1,14 @@
+languages:
+  - en
+  - it
+tags:
+  en:
+    - travel
+    - electronic
+  it:
+    - viaggi
+    - elettronica
+
+posts_label:
+  en: Posts
+  it: Articoli

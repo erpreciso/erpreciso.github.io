@@ -2,9 +2,11 @@
 layout: page
 title: About
 permalink: /about/
+lang: en
+ref: about
 
 ---
 
 ![Berlin wall graffiti]({{ site.url }}/assets/images/berlin_wall.png)
 
-Elettronica, lavori in legno, analisi esplorative di dati, programmazione e Linux, tutto pubblicato grazie a [Jekyll](https://jekyllrb.com/)
+Electronic, woodworking, exploratory data analysis, some coding and Linux tricks, published using [Jekyll](https://jekyllrb.com/)
