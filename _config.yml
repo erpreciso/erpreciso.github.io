@@ -11,6 +11,9 @@ url: https://erpreciso.github.io
 github_username:  erpreciso
 show_excerpts: true
 
+index:
+  en: index.html
+  it: indice.html
 
 # Build settings
 markdown: kramdown
