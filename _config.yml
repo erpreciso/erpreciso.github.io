@@ -7,6 +7,7 @@ baseurl: ""
 url: https://erpreciso.github.io
 # twitter_username: jekyllrb
 # github_username:  jekyll
+show_excerpts: true
 
 # Build settings
 markdown: kramdown
