@@ -12,3 +12,7 @@ tags:
 posts_label:
   en: Posts
   it: Articoli
+
+language_labels:
+  en: english
+  it: italiano

@@ -33,8 +33,8 @@
 </header>
 <div class="wrapper" style="text-align: right; line-height: 2em">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ site.data.vars.language_labels[post.lang] | capitalize }}</a> {% endfor %}
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ site.data.vars.language_labels[page.lang] | capitalize }}</a> {% endfor %}
 </div>
