@@ -3,7 +3,7 @@ title: "Pacchetto R: distract"
 excerpt: Un pacchetto per R per portare a casa il risultato in maniera lenta
 lang: it
 ref: distract
-tags: analisi esplorative di dati
+tags: analisi-esplorative-di-dati
 
 ---
 
