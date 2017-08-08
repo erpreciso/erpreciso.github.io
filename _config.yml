@@ -32,6 +32,13 @@ google_analytics: UA-54837961-3
 minima:
   date_format: "%e %B %Y"
 
+defaults:
+  -
+    scope:
+      path: "assets/images/pamir/gallery"
+    values:
+      pamir: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
