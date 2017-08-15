@@ -24,6 +24,7 @@ plugins_dir:
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-avatar
 
 google_analytics: UA-54837961-3
 
