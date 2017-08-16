@@ -261,7 +261,7 @@
 
 /**
  * Language selector
- */
+ **/
 .en:lang(en), .it:lang(it){
       font-weight: bold;
       font-size: $bigger-font-size;
@@ -269,7 +269,7 @@
 
 /**
  * Tags
- */
+ **/
  .title-tag {
     font-size: $bigger-font-size;
  }
@@ -277,3 +277,11 @@
     color: $grey-color-dark;
     font-size: $small-font-size;
  }
+
+ /**
+  * Google Spreadsheet
+  **/
+
+  .responsive-wrap iframe {
+    max-width: 100%;
+  }
