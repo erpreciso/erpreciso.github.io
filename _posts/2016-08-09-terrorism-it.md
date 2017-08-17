@@ -8,7 +8,6 @@ tags: analisi-esplorative-di-dati
     
 ---
 
-
 -   [Introduzione](#introduzione)
 -   [Preparazione dell'ambiente di lavoro](#preparazione-dellambiente-di-lavoro)
 -   [Preparazione dei dati](#preparazione-dei-dati)
@@ -1574,3 +1573,6 @@ db %>%
 {% endhighlight %}
 
 ![]({{ site.url }}/assets/images/terrorism/figure-markdown_github/italian-events-by-year-1.png)
+
+
+{% include rsource.html %}

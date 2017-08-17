@@ -4,7 +4,7 @@ excerpt: Semplice animazione ottenuta con il pacchetto `gganimate`
 date: 2016-08-08
 lang: it
 tags: analisi-esplorative-di-dati
-ref: prio
+ref: prio-animation
 
 ---
 
@@ -135,3 +135,5 @@ Altre risorse
 -   il pacchetto `animation` in [Cran](https://cran.r-project.org/web/packages/animation/animation.pdf){:target="_blank"}
 
 -   utilizzare correttamente le opzioni in `knitr`, da [stackoverflow](http://stackoverflow.com/questions/12038893/combining-r-markdown-and-animation-package#12039871){:target="_blank"}
+
+{% include rsource.html %}
