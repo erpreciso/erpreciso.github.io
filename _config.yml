@@ -9,6 +9,8 @@ baseurl: ""
 url: https://erpreciso.github.io
 # twitter_username: jekyllrb
 github_username:  erpreciso
+
+# global flag to show excerpts in home
 show_excerpts: true
 
 index:
@@ -26,6 +28,15 @@ gems:
   - jekyll-seo-tag
   - jekyll-avatar
 
+# compress html template http://jch.penibelst.de/
+#
+compress_html:
+    clippings: [all]
+    comments: [all]
+    ignore:
+      envs: [local]
+
+# google analytics plugin
 google_analytics: UA-54837961-3
 
 # Minima date format
@@ -33,6 +44,7 @@ google_analytics: UA-54837961-3
 minima:
   date_format: "%e %B %Y"
 
+# default values for static files
 defaults:
   -
     scope:
