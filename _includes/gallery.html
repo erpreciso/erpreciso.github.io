@@ -1,0 +1,5 @@
+{% assign tg = include.gallery-tag %}
+{% assign gallery = site.static_files | where: tg , true %}
+{% for image in gallery %}
+  ![]({{ image.path }})
+{% endfor %}
