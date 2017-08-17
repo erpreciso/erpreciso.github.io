@@ -1,0 +1,66 @@
+---
+title: "An exploratory analysis of the PRIO"
+date: 2016-11-20
+output: 
+  github_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+```
+
+
+# Intro
+
+This is an overview of the dataset released by [UCDP - Uppsala Conflict Data Program](http://www.ucdp.uu.se/) containing individual events of organized violence (phenomena of lethal violence occurring at a given time and place).
+
+## Thanks
+Sundberg, Ralph, and Erik Melander, 2013, “Introducing the UCDP Georeferenced Event Dataset”, Journal of Peace Research, vol.50, no.4, 523-532
+Croicu, Mihai and Ralph Sundberg, 2015, “UCDP GED Codebook version 2.0”, Department of Peace and Conflict Research, Uppsala University
+
+# Get and prepare data
+
+Database is downloaded in R Data format from the url [http://ucdp.uu.se/downloads/ucdpprio/ucdp-prio-acd-4-2016.RData.zip](http://ucdp.uu.se/downloads/ucdpprio/ucdp-prio-acd-4-2016.RData.zip)
+
+```{r}
+load("~/Downloads/ged50.Rdata")
+library(tidyverse)
+db <- tbl_df(ged50)
+```
+
+At the same location there is a codebook in pdf format that covers extensively all variables contained in the dataset.
+
+An overview of the variables:
+
+```{r}
+db %>% glimpse()
+```
+
+# Some analysis
+
+## Events by year
+```{r}
+db %>% 
+ ggplot(aes(x = year)) +
+  stat_count() +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(x = "Year",
+       y = "Count",
+       title = "Events by year")
+```
+
+## Killed by year
+```{r}
+db %>% 
+  group_by(year) %>% 
+  summarise(nkill = sum(best_est)) %>% 
+  ggplot(aes(x = year, y = nkill)) +
+  geom_point() +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(x = "Year",
+       y = "Number of killed",
+       title = "Number of deaths by year")
+```
