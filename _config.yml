@@ -56,6 +56,11 @@ defaults:
       path: "assets/images/iceland/2011/gallery"
     values:
       iceland_2011: true
+  -
+    scope:
+      path: "assets/images/iceland/2012/gallery"
+    values:
+      iceland_2012: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
