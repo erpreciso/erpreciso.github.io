@@ -16,6 +16,10 @@ header:
 
 Il piano originale, in rosso nella cartina soprastante, era di attraversare le "highlands" da est a ovest, e mi ero preparato con un'accurata ricerca delle condizioni probabili del meteo in autunno. La mia conclusione fu che avevo 50% di probabilitá di non passare per neve, e cosí è stato. Ho iniziato a salire di quota, e le condizioni giá a 500mtsl erano giá proibitive. Ho poi incontrato un trekker che veniva dalle montagne e mi ha confermato che la pista era impassabile.
 
+Qualche giorno piú tardi ho poi trovato conferma su un giornale che è stato meglio non avventurarsi.
+
+![ritaglio di giornale sul blizzard]({{ site.url }}/assets/images/iceland/2012/newspaper-blizzard.jpg)
+
 Ho cosí rinunciato ed ho pedalato la costa sud, in verde nella mappa, giá battuta l'anno precedente, ma ho aggiunto due giorni nelle montagne vicino a Reykjavik, che mi hanno portato esperienze preziose per la prossima volta.
 
 
