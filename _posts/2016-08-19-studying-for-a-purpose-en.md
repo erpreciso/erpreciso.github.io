@@ -8,12 +8,12 @@ date: 2016-08-19
 
 ---
 
-> Confucius: *"I hear and I forget. I see and I remember. I do and I understand"*
+> "I hear and I forget. I see and I remember. I do and I understand" -- Confucius
 
 Use the information, not only consume it. Learning a concept is different than being familiar with it. I will go through some techniques to help content sticks in your mind.
 Take responsibility for you own learning. Listen and think. Invest energy by elaborating what you're learning. Create knowledge in you.
 
-Main concepts are coming from the MOOC Learning How To Learn, from Barbara Oakley: I strongly suggest to attend it as it goes in details of all the concepts I will scratch below. I then re elaborated everything using my own structure and words, and you will see this is one of the main tasks to do if you really want to learn something.
+Main concepts are coming from the MOOC [Learning How To Learn](https://www.coursera.org/learn/learning-how-to-learn){:target="_blank"}, from [Barbara Oakley](http://www.barbaraoakley.com/){:target="_blank"}: I strongly suggest to attend it as it goes in details of all the concepts I will scratch below. I then re elaborated everything using my own structure and words, and you will see this is one of the main tasks to do if you really want to learn something.
 
 ## Your mind
 
