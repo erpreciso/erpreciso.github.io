@@ -23,7 +23,7 @@ theme: minima
 plugins_dir:
   - jekyll-feed
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-avatar
