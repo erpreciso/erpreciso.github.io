@@ -108,5 +108,5 @@ In caso di depressurizzazione in cabina durante un volo, mettetevi la maschera p
 
 Questo [documentario](https://youtu.be/Ex9aveVqJ88){:target="_blank"} tratta le ricerche svolte su come il mondo animale riesce a prevenire l'avvicinarsi di eventi catastrofici quali terremoti o tsunami.
 
-Assicurateci di avere un rilevatore di fumo funzionante. Questo [video](https://www.youtube.com/watch?v=n3nXk5I2gGw){:target="_blank"} mostra la totale assenza di riferimenti nel muoversi in una stanza piena di fumo, mentre in quest'altro [video](https://www.youtube.com/watch?v=BtMmymOxdjc){:target="_blank"} vedete come il fuoco in una stanza aumenta esponenzialmente fino a causare il [flashover](https://en.wikipedia.org/wiki/Flashover){:target="_blank"}, ovvero quando tutta la stanza prende istantaneamente fuoco.
+Assicuratevi di avere un rilevatore di fumo funzionante. Questo [video](https://www.youtube.com/watch?v=n3nXk5I2gGw){:target="_blank"} mostra la totale assenza di riferimenti nel muoversi in una stanza piena di fumo, mentre in quest'altro [video](https://www.youtube.com/watch?v=BtMmymOxdjc){:target="_blank"} vedete come il fuoco in una stanza aumenta esponenzialmente fino a causare il [flashover](https://en.wikipedia.org/wiki/Flashover){:target="_blank"}, ovvero quando tutta la stanza prende istantaneamente fuoco.
 
