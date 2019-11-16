@@ -44,7 +44,7 @@ ref: education
 
 
 
-#### 1994-1999  |  High School diploma (ISCED 2011 Level 3) in Technical and Industry
+#### 1994-1999  |  High School diploma (ISCED 2011 Level 3) in electronics, electrical engineering and telecommunications
 ### [Istituto Tecnico Industriale Statale di Gallarate](http://www.iisponti.edu.it/){:target="_blank"}
 
 Qualified in electronic, electrical engineering, telecommunications and informatics systems 
