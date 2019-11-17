@@ -43,7 +43,7 @@ google_analytics: UA-54837961-3
 # maps key
 maps:
   google:
-    api_key: AIzaSyAcL3GY_81kL6edpJ6zRwEu5Qpy0DqhGUw
+    api_key: api_key
     marker_cluster:
       enabled: true
 
