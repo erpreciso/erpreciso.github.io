@@ -27,7 +27,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-avatar
-  - jekyll-maps
 
 # compress html template http://jch.penibelst.de/
 #
@@ -39,13 +38,6 @@ compress_html:
 
 # google analytics plugin
 google_analytics: UA-54837961-3
-
-# maps key
-maps:
-  google:
-    api_key: api_key
-    marker_cluster:
-      enabled: true
 
 # Minima date format
 # # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
