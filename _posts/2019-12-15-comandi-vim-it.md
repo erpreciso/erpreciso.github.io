@@ -2,11 +2,13 @@
 title: I miei appunti su Vim
 excerpt: ""
 date: 2019-12-15
-tags: [command-line,linux,non-original]
+tags: appunti
 lang: it
 ref: vim_notes
 
 ---
+
+{% include toc.html html=content %}
 
 # Come ottenere, in VIM, la posizione corrente del cursore all'interno del documento
 
