@@ -8,7 +8,7 @@ ref: vim_notes
 
 ---
 
-{% include toc.html html=content %}
+{:toc}
 
 # Come ottenere, in VIM, la posizione corrente del cursore all'interno del documento
 
