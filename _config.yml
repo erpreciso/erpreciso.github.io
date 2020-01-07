@@ -61,7 +61,11 @@ defaults:
       path: "assets/images/iceland/2012/gallery"
     values:
       iceland_2012: true
-
+  -
+    scope:
+      path: "assets/images/workbench"
+    values:
+      workbench: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
