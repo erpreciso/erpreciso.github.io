@@ -30,7 +30,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # for the javascript thing
 gem "execjs"
-gem 'therubyracer' , :platforms => :ruby
+# gem 'therubyracer' , :platforms => :ruby
 
 # solve the warnings
 gem "nokogiri", ">= 1.10.8"
