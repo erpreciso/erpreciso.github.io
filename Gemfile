@@ -29,14 +29,14 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # for the javascript thing
-gem "execjs"
+#gem "execjs"
 # gem 'therubyracer' , :platforms => :ruby
 
 # solve the warnings
-gem "nokogiri", ">= 1.10.8"
-gem "ffi", ">= 1.9.24"
-gem "jekyll", ">= 3.6.3"
-gem "jekyll-sass-converter", "~> 1.3"
+#gem "nokogiri", ">= 1.10.8"
+#gem "ffi", ">= 1.9.24"
+#gem "jekyll", ">= 3.6.3"
+#gem "jekyll-sass-converter", "~> 1.3"
 # gem "kramdown", ">= 2.3.0"
 
 
