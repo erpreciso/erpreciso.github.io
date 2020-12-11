@@ -19,7 +19,7 @@ index:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 plugins_dir:
   - jekyll-feed
 
