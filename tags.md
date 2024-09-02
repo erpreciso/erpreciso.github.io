@@ -1,9 +1,0 @@
----
-layout: page
-title: Tags
-permalink: /tags/
-lang: en
-ref: tags
-
----
-{% include tags.html %}
